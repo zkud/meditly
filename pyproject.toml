@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meditly"
+version = "0.1.0"
+description = "A simple CLI meditation timer with breathing guidance"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "meditly"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+meditly = "meditly.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
