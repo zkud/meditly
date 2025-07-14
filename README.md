@@ -1,0 +1,2 @@
+# meditly
+Meditation CLI
