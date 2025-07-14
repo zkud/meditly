@@ -53,10 +53,10 @@ async def meditation_session(duration: int, inhale: int, exhale: int) -> None:
             await animate_breath("Breathe in...", inhale)
             await animate_breath("Breathe out...", exhale)
             
-        print("\nMeditation session completed. 🧘")
+        print("\nMeditation session completed.")
         
     except KeyboardInterrupt:
-        print("\nMeditation session ended early. 🙏")
+        print("\nMeditation session ended early.")
         sys.exit(0)
 
 def main() -> NoReturn:
